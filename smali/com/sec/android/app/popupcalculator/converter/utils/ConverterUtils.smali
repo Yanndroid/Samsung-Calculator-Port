@@ -2555,8 +2555,6 @@
     :goto_0
     iput p1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
 
-    invoke-virtual {v0, v2}, Landroid/view/WindowManager$LayoutParams;->semAddExtensionFlags(I)V
-
     goto :goto_1
 
     :cond_2
@@ -2565,8 +2563,6 @@
     and-int/lit16 p1, p1, -0x401
 
     iput p1, v0, Landroid/view/WindowManager$LayoutParams;->flags:I
-
-    invoke-virtual {v0, v2}, Landroid/view/WindowManager$LayoutParams;->semClearExtensionFlags(I)V
 
     :goto_1
     invoke-virtual {p0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
@@ -2783,38 +2779,8 @@
 .method public static isSupportingConvereterChina()Z
     .locals 2
 
-    invoke-static {}, Landroid/os/SemSystemProperties;->getCountryIso()Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "CHINA"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    const-string v1, "CN"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    goto :goto_1
-
-    :cond_1
-    :goto_0
     const/4 v0, 0x1
 
-    :goto_1
     return v0
 .end method
 

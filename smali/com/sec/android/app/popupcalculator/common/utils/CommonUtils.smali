@@ -790,7 +790,7 @@
 
     const-string v0, "ro.build.version.sep"
 
-    invoke-static {v0}, Landroid/os/SemSystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -847,46 +847,9 @@
 
 .method public static hasHoveringUI(Landroid/content/Context;)Z
     .locals 2
-
+    
     const/4 v0, 0x0
 
-    if-eqz p0, :cond_2
-
-    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_0
-
-    const-string v1, "com.sec.feature.hovering_ui"
-
-    invoke-virtual {p0, v1}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
-
-    move-result p0
-
-    if-nez p0, :cond_1
-
-    :cond_0
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object p0
-
-    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_SPEN_VERSION"
-
-    invoke-virtual {p0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
-
-    move-result p0
-
-    if-nez p0, :cond_2
-
-    :cond_1
-    const/4 v0, 0x1
-
-    :cond_2
     return v0
 .end method
 
@@ -1122,167 +1085,33 @@
 .method public static isBloomProject()Z
     .locals 2
 
-    invoke-static {}, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->isAtLeastR()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v0
-
-    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_FOLDABLE_TYPE_FLIP"
-
-    :goto_0
-    invoke-virtual {v0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getBoolean(Ljava/lang/String;)Z
-
-    move-result v0
+    const/4 v0, 0x0
 
     return v0
-
-    :cond_0
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v0
-
-    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_SECONDARY_DISPLAY_AS_COVER"
-
-    goto :goto_0
 .end method
 
 .method public static isDesktopModeOnDualType(Landroid/content/Context;)Z
     .locals 4
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "WrongConstant"
-        }
-    .end annotation
 
-    const-string v0, "desktopmode"
+    const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/samsung/android/desktopmode/SemDesktopModeManager;
-
-    const/4 v1, 0x0
-
-    if-nez v0, :cond_0
-
-    return v1
-
-    :cond_0
-    invoke-virtual {v0}, Lcom/samsung/android/desktopmode/SemDesktopModeManager;->getDesktopModeState()Lcom/samsung/android/desktopmode/SemDesktopModeState;
-
-    move-result-object v0
-
-    iget v2, v0, Lcom/samsung/android/desktopmode/SemDesktopModeState;->enabled:I
-
-    const/4 v3, 0x4
-
-    if-ne v2, v3, :cond_1
-
-    invoke-virtual {v0}, Lcom/samsung/android/desktopmode/SemDesktopModeState;->getDisplayType()I
-
-    move-result v0
-
-    const/16 v2, 0x66
-
-    if-ne v0, v2, :cond_1
-
-    const-string v0, "window"
-
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Landroid/view/WindowManager;
-
-    invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Landroid/view/Display;->getDisplayId()I
-
-    move-result p0
-
-    if-eqz p0, :cond_1
-
-    const/4 v1, 0x1
-
-    :cond_1
-    return v1
+    return v0
 .end method
 
 .method public static isFold2SubScreen(Landroid/content/Context;)Z
     .locals 3
 
-    invoke-static {}, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->isTopProject()Z
+    const/4 v0, 0x0
 
-    move-result v0
-
-    const/4 v1, 0x0
-
-    if-eqz v0, :cond_0
-
-    sget v0, Landroid/os/Build$VERSION;->SEM_INT:I
-
-    const/16 v2, 0xaf2
-
-    if-lt v0, v2, :cond_0
-
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
-
-    move-result-object p0
-
-    iget p0, p0, Landroid/content/res/Configuration;->semDisplayDeviceType:I
-
-    const/4 v0, 0x5
-
-    if-ne p0, v0, :cond_0
-
-    const/4 v1, 0x1
-
-    :cond_0
-    return v1
+    return v0
 .end method
 
 .method public static isFoldableDeviceTypeFold()Z
     .locals 2
 
-    invoke-static {}, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->isAtLeastR()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v0
-
-    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_FOLDABLE_TYPE_FOLD"
-
-    :goto_0
-    invoke-virtual {v0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getBoolean(Ljava/lang/String;)Z
-
-    move-result v0
+    const/4 v0, 0x0
 
     return v0
-
-    :cond_0
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v0
-
-    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_WM_CONTROLS_DISPLAY_SWITCH"
-
-    goto :goto_0
 .end method
 
 .method public static isInMultiWindow(Landroid/content/Context;)Z
@@ -1496,44 +1325,15 @@
 .method public static isSplitScreen(Landroid/app/Activity;)Z
     .locals 2
 
-    invoke-virtual {p0}, Landroid/app/Activity;->isInMultiWindowMode()Z
-
-    move-result p0
-
     const/4 v0, 0x0
 
-    if-eqz p0, :cond_0
-
-    new-instance p0, Lcom/samsung/android/app/SemMultiWindowManager;
-
-    invoke-direct {p0}, Lcom/samsung/android/app/SemMultiWindowManager;-><init>()V
-
-    invoke-virtual {p0}, Lcom/samsung/android/app/SemMultiWindowManager;->getMode()I
-
-    move-result p0
-
-    const/4 v1, 0x2
-
-    if-ne p0, v1, :cond_0
-
-    const/4 v0, 0x1
-
-    :cond_0
     return v0
 .end method
 
 .method public static isSupportHalfFoldedMode()Z
     .locals 2
 
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v0
-
-    const-string v1, "SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_HALF_FOLDED_MODE"
-
-    invoke-virtual {v0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getBoolean(Ljava/lang/String;)Z
-
-    move-result v0
+    const/4 v0, 0x0
 
     return v0
 .end method
@@ -1543,44 +1343,6 @@
 
     const/4 v0, 0x0
 
-    if-nez p0, :cond_0
-
-    return v0
-
-    :cond_0
-    const-string v1, "vibrator"
-
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Landroid/os/Vibrator;
-
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v1
-
-    const-string v2, "SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DC_MOTOR_HAPTIC_FEEDBACK"
-
-    invoke-virtual {v1, v2}, Lcom/samsung/android/feature/SemFloatingFeature;->getBoolean(Ljava/lang/String;)Z
-
-    move-result v1
-
-    const/4 v2, 0x1
-
-    if-eqz v1, :cond_1
-
-    if-eqz p0, :cond_1
-
-    invoke-virtual {p0}, Landroid/os/Vibrator;->semGetSupportedVibrationType()I
-
-    move-result p0
-
-    if-ne p0, v2, :cond_1
-
-    move v0, v2
-
-    :cond_1
     return v0
 .end method
 
@@ -1633,9 +1395,6 @@
     goto :goto_0
 
     :cond_1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityManager;->semIsScreenReaderEnabled()Z
-
-    move-result v0
 
     :goto_0
     return v0
@@ -1727,123 +1486,15 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p0, v0}, Landroid/graphics/Typeface;->semGetFontPathOfCurrentFontStyle(Landroid/content/Context;I)Ljava/lang/String;
-
-    move-result-object p0
-
-    const-string v0, "default"
-
-    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result p0
-
-    return p0
+    return v0
 .end method
 
 .method public static isUsingMobileKeyboard(Landroid/content/Context;)Z
     .locals 5
 
-    const-string v0, "isUsingMobileKeyboard() : "
-
-    const-string v1, "CommonUtils"
-
-    const/4 v2, 0x0
-
-    :try_start_0
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v3
-
-    const-string v4, "SEC_FLOATING_FEATURE_COMMON_SUPPORT_NFC_HW_KEYBOARD"
-
-    invoke-virtual {v3, v4}, Lcom/samsung/android/feature/SemFloatingFeature;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v3
-
-    const-string v4, "FALSE"
-
-    invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-    :try_end_0
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_0 .. :try_end_0} :catch_1
-
-    if-eqz v3, :cond_0
-
-    return v2
-
-    :cond_0
-    :try_start_1
-    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    move-result-object p0
-
-    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
-
-    move-result-object p0
-
-    if-eqz p0, :cond_1
-
-    iget p0, p0, Landroid/content/res/Configuration;->semMobileKeyboardCovered:I
-    :try_end_1
-    .catch Ljava/lang/NullPointerException; {:try_start_1 .. :try_end_1} :catch_0
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_1 .. :try_end_1} :catch_1
-
-    const/4 v0, 0x1
-
-    if-ne p0, v0, :cond_1
+    const/4 v0, 0x0
 
     return v0
-
-    :catch_0
-    move-exception p0
-
-    :try_start_2
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p0}, Ljava/lang/NullPointerException;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-    :try_end_2
-    .catch Ljava/lang/NoClassDefFoundError; {:try_start_2 .. :try_end_2} :catch_1
-
-    :cond_1
-    return v2
-
-    :catch_1
-    move-exception p0
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p0}, Ljava/lang/NoClassDefFoundError;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-virtual {v3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p0
-
-    invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
-
-    return v2
 .end method
 
 .method public static isWinnerProject()Z
@@ -1851,13 +1502,13 @@
 
     const-string v0, "ro.product.name"
 
-    invoke-static {v0}, Landroid/os/SemSystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "ro.product.vendor.device"
 
-    invoke-static {v1}, Landroid/os/SemSystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1976,81 +1627,6 @@
 
 .method public static onHapticFeedback(Landroid/content/Context;Landroid/view/View;I)V
     .locals 2
-
-    if-nez p0, :cond_0
-
-    return-void
-
-    :cond_0
-    const-string v0, "vibrator"
-
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/os/Vibrator;
-
-    invoke-static {p0}, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->isSupportHapticFeedbackDCMotor(Landroid/content/Context;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    const/16 p1, 0x29
-
-    if-ne p1, p2, :cond_1
-
-    return-void
-
-    :cond_1
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object p0
-
-    const-string p1, "haptic_feedback_enabled"
-
-    const/4 p2, 0x0
-
-    invoke-static {p0, p1, p2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
-
-    move-result p0
-
-    const/4 p1, 0x1
-
-    if-ne p0, p1, :cond_2
-
-    move p2, p1
-
-    :cond_2
-    if-eqz p2, :cond_4
-
-    const/16 p0, 0x64
-
-    invoke-static {p0}, Landroid/view/HapticFeedbackConstants;->semGetVibrationIndex(I)I
-
-    move-result p0
-
-    const/4 p1, -0x1
-
-    sget-object p2, Landroid/os/VibrationEffect$SemMagnitudeType;->TYPE_TOUCH:Landroid/os/VibrationEffect$SemMagnitudeType;
-
-    invoke-static {p0, p1, p2}, Landroid/os/VibrationEffect;->semCreateWaveform(IILandroid/os/VibrationEffect$SemMagnitudeType;)Landroid/os/VibrationEffect;
-
-    move-result-object p0
-
-    invoke-virtual {v0, p0}, Landroid/os/Vibrator;->vibrate(Landroid/os/VibrationEffect;)V
-
-    goto :goto_0
-
-    :cond_3
-    invoke-static {p2}, Landroid/view/HapticFeedbackConstants;->semGetVibrationIndex(I)I
-
-    move-result p0
-
-    invoke-virtual {p1, p0}, Landroid/view/View;->performHapticFeedback(I)Z
-
-    :cond_4
-    :goto_0
     return-void
 .end method
 
@@ -2062,140 +1638,13 @@
     return-void
 
     :cond_0
-    const-string v0, "vibrator"
-
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/os/Vibrator;
-
-    invoke-static {p0}, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->isSupportHapticFeedbackDCMotor(Landroid/content/Context;)Z
-
-    move-result v1
-
-    if-eqz v1, :cond_2
-
-    if-eqz v0, :cond_2
-
-    invoke-virtual {v0}, Landroid/os/Vibrator;->semGetSupportedVibrationType()I
-
-    move-result v1
-
-    const/4 v2, 0x1
-
-    if-ne v1, v2, :cond_2
-
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object p0
-
-    const-string p1, "haptic_feedback_enabled"
-
-    const/4 p2, 0x0
-
-    invoke-static {p0, p1, p2}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
-
-    move-result p0
-
-    if-ne p0, v2, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    move v2, p2
-
-    :goto_0
-    if-eqz v2, :cond_3
-
-    const/16 p0, 0x64
-
-    invoke-static {p0}, Landroid/view/HapticFeedbackConstants;->semGetVibrationIndex(I)I
-
-    move-result p0
-
-    const/4 p1, -0x1
-
-    sget-object p2, Landroid/os/VibrationEffect$SemMagnitudeType;->TYPE_TOUCH:Landroid/os/VibrationEffect$SemMagnitudeType;
-
-    invoke-static {p0, p1, p2}, Landroid/os/VibrationEffect;->semCreateWaveform(IILandroid/os/VibrationEffect$SemMagnitudeType;)Landroid/os/VibrationEffect;
-
-    move-result-object p0
-
-    invoke-virtual {v0, p0}, Landroid/os/Vibrator;->vibrate(Landroid/os/VibrationEffect;)V
-
-    goto :goto_1
-
-    :cond_2
     invoke-virtual {p1, p2, p3}, Landroid/view/View;->performHapticFeedback(II)Z
 
-    :cond_3
-    :goto_1
     return-void
 .end method
 
 .method public static onSoundFeedback(Landroid/content/Context;Z)V
     .locals 9
-
-    if-nez p0, :cond_0
-
-    return-void
-
-    :cond_0
-    const-string v0, "audio"
-
-    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    check-cast p0, Landroid/media/AudioManager;
-
-    sput-object p0, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->sAudioManager:Landroid/media/AudioManager;
-
-    const/4 v0, 0x2
-
-    const/4 v1, 0x0
-
-    invoke-virtual {p0, v0, v1}, Landroid/media/AudioManager;->semGetSituationVolume(II)F
-
-    move-result v5
-
-    if-nez p1, :cond_1
-
-    sget p0, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->sCurrentSoundId:I
-
-    goto :goto_0
-
-    :cond_1
-    sget p0, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->sCurrentBackkeySoundId:I
-
-    :goto_0
-    move v3, p0
-
-    invoke-static {}, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->isAtLeastR()Z
-
-    move-result p0
-
-    if-eqz p0, :cond_2
-
-    sget-object p0, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->sButtonSoundPool:Landroid/media/SoundPool;
-
-    const-string p1, "stv_keyboard"
-
-    invoke-virtual {p0, v3, p1}, Landroid/media/SoundPool;->semSetSituationType(ILjava/lang/String;)V
-
-    :cond_2
-    sget-object v2, Lcom/sec/android/app/popupcalculator/common/utils/CommonUtils;->sButtonSoundPool:Landroid/media/SoundPool;
-
-    const/4 v6, 0x1
-
-    const/4 v7, 0x0
-
-    const/high16 v8, 0x3f800000    # 1.0f
-
-    move v4, v5
-
-    invoke-virtual/range {v2 .. v8}, Landroid/media/SoundPool;->play(IFFIIF)I
 
     return-void
 .end method

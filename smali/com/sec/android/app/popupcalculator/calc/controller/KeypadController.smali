@@ -1659,8 +1659,6 @@
     goto :goto_4
 
     :cond_7
-    invoke-virtual {v6, v3}, Landroid/view/View;->semSetHoverPopupType(I)V
-
     invoke-virtual {v6}, Landroid/view/View;->getContentDescription()Ljava/lang/CharSequence;
 
     move-result-object v5
@@ -2137,8 +2135,6 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2}, Landroid/view/View;->semSetHoverPopupType(I)V
-
     iget-object v0, p0, Lcom/sec/android/app/popupcalculator/calc/controller/KeypadController;->mDegreeRadianButton:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getContentDescription()Ljava/lang/CharSequence;
@@ -2466,8 +2462,6 @@
     move-result-object v4
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setContentDescription(Ljava/lang/CharSequence;)V
-
-    invoke-virtual {v3, v1}, Landroid/view/View;->semSetHoverPopupType(I)V
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setTooltipText(Ljava/lang/CharSequence;)V
 

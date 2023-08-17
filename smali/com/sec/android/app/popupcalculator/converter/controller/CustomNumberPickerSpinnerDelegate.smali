@@ -612,8 +612,6 @@
 
     iget-object p1, p0, Lcom/sec/android/app/popupcalculator/converter/controller/CustomNumberPickerSpinnerDelegate;->mInputText:Landroid/widget/EditText;
 
-    invoke-virtual {p1, v0}, Landroid/widget/EditText;->semSetHoverPopupType(I)V
-
     invoke-static {p2}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
     move-result-object p1

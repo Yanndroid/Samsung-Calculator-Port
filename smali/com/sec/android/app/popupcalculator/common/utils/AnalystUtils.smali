@@ -96,7 +96,7 @@
 
 .field private static final DETAIL_X_POWER:Ljava/lang/String; = "X to the power of y (10)"
 
-.field private static final ENABLE_SURVEY_MODE:Ljava/lang/String;
+.field private static final ENABLE_SURVEY_MODE:Ljava/lang/String; = "FALSE"
 
 .field public static final EVENT_CALCULATOR_BACKSPACE_BUTTON:Ljava/lang/String; = "1003"
 
@@ -556,18 +556,6 @@
     move-result-object v0
 
     sput-object v0, Lcom/sec/android/app/popupcalculator/common/utils/AnalystUtils;->DETAIL_UNITCONVERTER:[Ljava/lang/String;
-
-    invoke-static {}, Lcom/samsung/android/feature/SemFloatingFeature;->getInstance()Lcom/samsung/android/feature/SemFloatingFeature;
-
-    move-result-object v0
-
-    const-string v1, "SEC_FLOATING_FEATURE_CONTEXTSERVICE_ENABLE_SURVEY_MODE"
-
-    invoke-virtual {v0, v1}, Lcom/samsung/android/feature/SemFloatingFeature;->getString(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    sput-object v0, Lcom/sec/android/app/popupcalculator/common/utils/AnalystUtils;->ENABLE_SURVEY_MODE:Ljava/lang/String;
 
     return-void
 .end method

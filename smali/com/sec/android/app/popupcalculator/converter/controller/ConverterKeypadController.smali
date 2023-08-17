@@ -1087,8 +1087,6 @@
     goto :goto_2
 
     :cond_4
-    invoke-virtual {v6, v3}, Landroid/view/View;->semSetHoverPopupType(I)V
-
     iget-object v5, p0, Lcom/sec/android/app/popupcalculator/converter/controller/ConverterKeypadController;->mContext:Landroid/content/Context;
 
     invoke-virtual {v5}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
