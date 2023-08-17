@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="converter_area_items">
+        <item>@string/area_item_acre</item>
+        <item>@string/area_item_are</item>
+        <item>@string/area_item_hectare</item>
+        <item>@string/area_item_square_cm</item>
+        <item>@string/area_item_square_ft</item>
+        <item>@string/area_item_square_in</item>
+        <item>@string/area_item_square_m</item>
+    </string-array>
+    <string-array name="converter_data_items">
+        <item>@string/data_item_bit</item>
+        <item>@string/data_item_byte</item>
+        <item>@string/data_item_kb</item>
+        <item>@string/data_item_kib</item>
+        <item>@string/data_item_mb</item>
+        <item>@string/data_item_mib</item>
+        <item>@string/data_item_gb</item>
+        <item>@string/data_item_gib</item>
+        <item>@string/data_item_tb</item>
+        <item>@string/data_item_tib</item>
+    </string-array>
+    <integer-array name="converter_default_from">
+        <item>@integer/converter_default_area_from</item>
+        <item>@integer/converter_default_length_from</item>
+        <item>@integer/converter_default_temperature_from</item>
+        <item>@integer/converter_default_volume_from</item>
+        <item>@integer/converter_default_mass_from</item>
+        <item>@integer/converter_default_data_from</item>
+        <item>@integer/converter_default_speed_from</item>
+        <item>@integer/converter_default_time_from</item>
+        <item>@integer/converter_default_tip_from</item>
+        <item>@integer/converter_default_exchange_from</item>
+    </integer-array>
+    <integer-array name="converter_default_to_0">
+        <item>@integer/converter_default_area_to_0</item>
+        <item>@integer/converter_default_length_to_0</item>
+        <item>@integer/converter_default_temperature_to_0</item>
+        <item>@integer/converter_default_volume_to_0</item>
+        <item>@integer/converter_default_mass_to_0</item>
+        <item>@integer/converter_default_data_to_0</item>
+        <item>@integer/converter_default_speed_to_0</item>
+        <item>@integer/converter_default_time_to_0</item>
+        <item>@integer/converter_default_tip_to_0</item>
+        <item>@integer/converter_default_exchange_to_0</item>
+    </integer-array>
+    <integer-array name="converter_default_to_1">
+        <item>@integer/converter_default_area_to_1</item>
+        <item>@integer/converter_default_length_to_1</item>
+        <item>@integer/converter_default_temperature_to_1</item>
+        <item>@integer/converter_default_volume_to_1</item>
+        <item>@integer/converter_default_mass_to_1</item>
+        <item>@integer/converter_default_data_to_1</item>
+        <item>@integer/converter_default_speed_to_1</item>
+        <item>@integer/converter_default_time_to_1</item>
+        <item>@integer/converter_default_tip_to_1</item>
+        <item>@integer/converter_default_exchange_to_1</item>
+    </integer-array>
+    <string-array name="converter_length_items">
+        <item>@string/length_item_mm</item>
+        <item>@string/length_item_cm</item>
+        <item>@string/length_item_m</item>
+        <item>@string/length_item_km</item>
+        <item>@string/length_item_inch</item>
+        <item>@string/length_item_ft</item>
+        <item>@string/length_item_yard</item>
+        <item>@string/length_item_mile</item>
+        <item>@string/length_item_nautical_mile</item>
+        <item>@string/length_item_mil</item>
+    </string-array>
+    <string-array name="converter_mass_items">
+        <item>@string/mass_item_ton</item>
+        <item>@string/mass_item_long_ton</item>
+        <item>@string/mass_item_short_ton</item>
+        <item>@string/mass_item_pound</item>
+        <item>@string/mass_item_ounce</item>
+        <item>@string/mass_item_kg</item>
+        <item>@string/mass_item_gram</item>
+    </string-array>
+    <string-array name="converter_speed_items">
+        <item>@string/speed_item_ms</item>
+        <item>@string/speed_item_mh</item>
+        <item>@string/speed_item_kms</item>
+        <item>@string/speed_item_kmh</item>
+        <item>@string/speed_item_ins</item>
+        <item>@string/speed_item_inh</item>
+        <item>@string/speed_item_fts</item>
+        <item>@string/speed_item_fth</item>
+        <item>@string/speed_item_mis</item>
+        <item>@string/speed_item_mih</item>
+        <item>@string/speed_item_kn</item>
+    </string-array>
+    <string-array name="converter_temperature_items">
+        <item>@string/temperature_item_c</item>
+        <item>@string/temperature_item_f</item>
+        <item>@string/temperature_item_k</item>
+    </string-array>
+    <string-array name="converter_time_items">
+        <item>@string/time_item_ms</item>
+        <item>@string/time_item_s</item>
+        <item>@string/time_item_min</item>
+        <item>@string/time_item_hour</item>
+        <item>@string/time_item_day</item>
+        <item>@string/time_item_week</item>
+    </string-array>
+    <array name="converter_tip_items" />
+    <string-array name="converter_volume_items">
+        <item>@string/volume_item_gallon_uk</item>
+        <item>@string/volume_item_gallon_us</item>
+        <item>@string/volume_item_liter</item>
+        <item>@string/volume_item_ml</item>
+        <item>@string/volume_item_cc</item>
+        <item>@string/volume_item_cm</item>
+        <item>@string/volume_item_ci</item>
+        <item>@string/volume_item_cf</item>
+    </string-array>
+    <string-array name="exchange_rate_items">
+        <item>@string/exchange_rate_cny</item>
+        <item>@string/exchange_rate_usd</item>
+        <item>@string/exchange_rate_eur</item>
+        <item>@string/exchange_rate_jpy</item>
+        <item>@string/exchange_rate_krw</item>
+        <item>@string/exchange_rate_hkd</item>
+        <item>@string/exchange_rate_aed</item>
+        <item>@string/exchange_rate_ars</item>
+        <item>@string/exchange_rate_aud</item>
+        <item>@string/exchange_rate_bgn</item>
+        <item>@string/exchange_rate_bhd</item>
+        <item>@string/exchange_rate_bnd</item>
+        <item>@string/exchange_rate_brl</item>
+        <item>@string/exchange_rate_cad</item>
+        <item>@string/exchange_rate_chf</item>
+        <item>@string/exchange_rate_clp</item>
+        <item>@string/exchange_rate_cop</item>
+        <item>@string/exchange_rate_crc</item>
+        <item>@string/exchange_rate_czk</item>
+        <item>@string/exchange_rate_dkk</item>
+        <item>@string/exchange_rate_dzd</item>
+        <item>@string/exchange_rate_egp</item>
+        <item>@string/exchange_rate_gbp</item>
+        <item>@string/exchange_rate_hrk</item>
+        <item>@string/exchange_rate_huf</item>
+        <item>@string/exchange_rate_idr</item>
+        <item>@string/exchange_rate_ils</item>
+        <item>@string/exchange_rate_inr</item>
+        <item>@string/exchange_rate_iqd</item>
+        <item>@string/exchange_rate_isk</item>
+        <item>@string/exchange_rate_jod</item>
+        <item>@string/exchange_rate_kes</item>
+        <item>@string/exchange_rate_khr</item>
+        <item>@string/exchange_rate_kwd</item>
+        <item>@string/exchange_rate_lak</item>
+        <item>@string/exchange_rate_lbp</item>
+        <item>@string/exchange_rate_lkr</item>
+        <item>@string/exchange_rate_mad</item>
+        <item>@string/exchange_rate_mop</item>
+        <item>@string/exchange_rate_mxn</item>
+        <item>@string/exchange_rate_myr</item>
+        <item>@string/exchange_rate_nok</item>
+        <item>@string/exchange_rate_nzd</item>
+        <item>@string/exchange_rate_omr</item>
+        <item>@string/exchange_rate_php</item>
+        <item>@string/exchange_rate_pln</item>
+        <item>@string/exchange_rate_qar</item>
+        <item>@string/exchange_rate_ron</item>
+        <item>@string/exchange_rate_rsd</item>
+        <item>@string/exchange_rate_rub</item>
+        <item>@string/exchange_rate_sar</item>
+        <item>@string/exchange_rate_sek</item>
+        <item>@string/exchange_rate_sgd</item>
+        <item>@string/exchange_rate_syp</item>
+        <item>@string/exchange_rate_thb</item>
+        <item>@string/exchange_rate_try</item>
+        <item>@string/exchange_rate_twd</item>
+        <item>@string/exchange_rate_tzs</item>
+        <item>@string/exchange_rate_ugx</item>
+        <item>@string/exchange_rate_vnd</item>
+        <item>@string/exchange_rate_zar</item>
+        <item>@string/exchange_rate_zmw</item>
+    </string-array>
+    <string-array name="exchange_rate_unit_items">
+        <item>@string/exchange_rate_unit_cny</item>
+        <item>@string/exchange_rate_unit_usd</item>
+        <item>@string/exchange_rate_unit_eur</item>
+        <item>@string/exchange_rate_unit_jpy</item>
+        <item>@string/exchange_rate_unit_krw</item>
+        <item>@string/exchange_rate_unit_hkd</item>
+        <item>@string/exchange_rate_unit_aed</item>
+        <item>@string/exchange_rate_unit_ars</item>
+        <item>@string/exchange_rate_unit_aud</item>
+        <item>@string/exchange_rate_unit_bgn</item>
+        <item>@string/exchange_rate_unit_bhd</item>
+        <item>@string/exchange_rate_unit_bnd</item>
+        <item>@string/exchange_rate_unit_brl</item>
+        <item>@string/exchange_rate_unit_cad</item>
+        <item>@string/exchange_rate_unit_chf</item>
+        <item>@string/exchange_rate_unit_clp</item>
+        <item>@string/exchange_rate_unit_cop</item>
+        <item>@string/exchange_rate_unit_crc</item>
+        <item>@string/exchange_rate_unit_czk</item>
+        <item>@string/exchange_rate_unit_dkk</item>
+        <item>@string/exchange_rate_unit_dzd</item>
+        <item>@string/exchange_rate_unit_egp</item>
+        <item>@string/exchange_rate_unit_gbp</item>
+        <item>@string/exchange_rate_unit_hrk</item>
+        <item>@string/exchange_rate_unit_huf</item>
+        <item>@string/exchange_rate_unit_idr</item>
+        <item>@string/exchange_rate_unit_ils</item>
+        <item>@string/exchange_rate_unit_inr</item>
+        <item>@string/exchange_rate_unit_iqd</item>
+        <item>@string/exchange_rate_unit_isk</item>
+        <item>@string/exchange_rate_unit_jod</item>
+        <item>@string/exchange_rate_unit_kes</item>
+        <item>@string/exchange_rate_unit_khr</item>
+        <item>@string/exchange_rate_unit_kwd</item>
+        <item>@string/exchange_rate_unit_lak</item>
+        <item>@string/exchange_rate_unit_lbp</item>
+        <item>@string/exchange_rate_unit_lkr</item>
+        <item>@string/exchange_rate_unit_mad</item>
+        <item>@string/exchange_rate_unit_mop</item>
+        <item>@string/exchange_rate_unit_mxn</item>
+        <item>@string/exchange_rate_unit_myr</item>
+        <item>@string/exchange_rate_unit_nok</item>
+        <item>@string/exchange_rate_unit_nzd</item>
+        <item>@string/exchange_rate_unit_omr</item>
+        <item>@string/exchange_rate_unit_php</item>
+        <item>@string/exchange_rate_unit_pln</item>
+        <item>@string/exchange_rate_unit_qar</item>
+        <item>@string/exchange_rate_unit_ron</item>
+        <item>@string/exchange_rate_unit_rsd</item>
+        <item>@string/exchange_rate_unit_rub</item>
+        <item>@string/exchange_rate_unit_sar</item>
+        <item>@string/exchange_rate_unit_sek</item>
+        <item>@string/exchange_rate_unit_sgd</item>
+        <item>@string/exchange_rate_unit_syp</item>
+        <item>@string/exchange_rate_unit_thb</item>
+        <item>@string/exchange_rate_unit_try</item>
+        <item>@string/exchange_rate_unit_twd</item>
+        <item>@string/exchange_rate_unit_tzs</item>
+        <item>@string/exchange_rate_unit_ugx</item>
+        <item>@string/exchange_rate_unit_vnd</item>
+        <item>@string/exchange_rate_unit_zar</item>
+        <item>@string/exchange_rate_unit_zmw</item>
+    </string-array>
+    <array name="locale_converter_area_items" />
+    <array name="locale_converter_data_items" />
+    <array name="locale_converter_exchange_items" />
+    <array name="locale_converter_length_items" />
+    <array name="locale_converter_mass_items" />
+    <array name="locale_converter_speed_items" />
+    <array name="locale_converter_temperature_items" />
+    <array name="locale_converter_time_items" />
+    <array name="locale_converter_tip_items" />
+    <array name="locale_converter_volume_items" />
+    <array name="locale_tv_area_items" />
+    <array name="locale_tv_data_items" />
+    <array name="locale_tv_exchange_items" />
+    <array name="locale_tv_length_items" />
+    <array name="locale_tv_mass_items" />
+    <array name="locale_tv_speed_items" />
+    <array name="locale_tv_temperature_items" />
+    <array name="locale_tv_time_items" />
+    <array name="locale_tv_tip_items" />
+    <array name="locale_tv_volume_items" />
+    <string-array name="mortgage_input_page_title">
+        <item>@string/commercial</item>
+        <item>@string/fund</item>
+        <item>@string/hybrid</item>
+    </string-array>
+    <string-array name="mortgage_payment_method">
+        <item>@string/equal_installments</item>
+        <item>@string/decreasing_installments</item>
+    </string-array>
+    <string-array name="mortgage_result_page_title">
+        <item>@string/equal</item>
+        <item>@string/decreasing</item>
+    </string-array>
+    <string-array name="tv_area_items">
+        <item>@string/tv_area_item_acre</item>
+        <item>@string/tv_area_item_are</item>
+        <item>@string/tv_area_item_hectare</item>
+        <item>@string/tv_area_item_square_cm</item>
+        <item>@string/tv_area_item_square_ft</item>
+        <item>@string/tv_area_item_square_in</item>
+        <item>@string/tv_area_item_square_m</item>
+    </string-array>
+    <string-array name="tv_data_items">
+        <item>@string/tv_data_item_bit</item>
+        <item>@string/tv_data_item_byte</item>
+        <item>@string/tv_data_item_kb</item>
+        <item>@string/tv_data_item_kib</item>
+        <item>@string/tv_data_item_mb</item>
+        <item>@string/tv_data_item_mib</item>
+        <item>@string/tv_data_item_gb</item>
+        <item>@string/tv_data_item_gib</item>
+        <item>@string/tv_data_item_tb</item>
+        <item>@string/tv_data_item_tib</item>
+    </string-array>
+    <string-array name="tv_length_items">
+        <item>@string/tv_length_item_mm</item>
+        <item>@string/tv_length_item_cm</item>
+        <item>@string/tv_length_item_m</item>
+        <item>@string/tv_length_item_km</item>
+        <item>@string/tv_length_item_inch</item>
+        <item>@string/tv_length_item_ft</item>
+        <item>@string/tv_length_item_yard</item>
+        <item>@string/tv_length_item_mile</item>
+        <item>@string/tv_length_item_nautical_mile</item>
+        <item>@string/tv_length_item_mil</item>
+    </string-array>
+    <string-array name="tv_mass_items">
+        <item>@string/tv_mass_item_ton</item>
+        <item>@string/tv_mass_item_long_ton</item>
+        <item>@string/tv_mass_item_short_ton</item>
+        <item>@string/tv_mass_item_pound</item>
+        <item>@string/tv_mass_item_ounce</item>
+        <item>@string/tv_mass_item_kg</item>
+        <item>@string/tv_mass_item_gram</item>
+    </string-array>
+    <string-array name="tv_speed_items">
+        <item>@string/tv_speed_item_ms</item>
+        <item>@string/tv_speed_item_mh</item>
+        <item>@string/tv_speed_item_kms</item>
+        <item>@string/tv_speed_item_kmh</item>
+        <item>@string/tv_speed_item_ins</item>
+        <item>@string/tv_speed_item_inh</item>
+        <item>@string/tv_speed_item_fts</item>
+        <item>@string/tv_speed_item_fth</item>
+        <item>@string/tv_speed_item_mis</item>
+        <item>@string/tv_speed_item_mih</item>
+        <item>@string/tv_speed_item_kn</item>
+    </string-array>
+    <string-array name="tv_temperature_items">
+        <item>@string/tv_temperature_item_c</item>
+        <item>@string/tv_temperature_item_f</item>
+        <item>@string/tv_temperature_item_k</item>
+    </string-array>
+    <string-array name="tv_time_items">
+        <item>@string/tv_time_item_ms</item>
+        <item>@string/tv_time_item_s</item>
+        <item>@string/tv_time_item_min</item>
+        <item>@string/tv_time_item_hour</item>
+        <item>@string/tv_time_item_day</item>
+        <item>@string/tv_time_item_week</item>
+    </string-array>
+    <array name="tv_tip_items" />
+    <string-array name="tv_volume_items">
+        <item>@string/tv_volume_item_gallon_us</item>
+        <item>@string/tv_volume_item_gallon_uk</item>
+        <item>@string/tv_volume_item_liter</item>
+        <item>@string/tv_volume_item_ml</item>
+        <item>@string/tv_volume_item_cc</item>
+        <item>@string/tv_volume_item_cm</item>
+        <item>@string/tv_volume_item_ci</item>
+        <item>@string/tv_volume_item_cf</item>
+    </string-array>
+</resources>

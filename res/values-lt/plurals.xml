@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d simbolį.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d simbolių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d simbolių.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Negalima įvesti daugiau nei %d operatorių.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalim įvesti daugiau nei %d operatoriaus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d operatorių.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d operatorių.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Po kablelio negalima įvesti daugiau nei %d skaitmenų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Po kablelio negalima įvesti daugiau nei %d skaitmens.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Po kablelio negalima įvesti daugiau nei %d skaitmenų.</item>
+        <item quantity="many">Po kablelio negalima įvesti daugiau nei %d skaitmenų.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Negalima įvesti daugiau nei %d skaitmenų.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Negalima įvesti daugiau nei %d skaitmens.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Negalima įvesti daugiau nei %d skaitmenų.</item>
+        <item quantity="many">Negalima įvesti daugiau nei %d skaitmenų.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d žmonių</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d žmogus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d žmonės</item>
+        <item quantity="many">%d žmonių</item>
+    </plurals>
+</resources>

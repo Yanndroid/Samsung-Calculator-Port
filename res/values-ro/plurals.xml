@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Nu se pot introduce mai mult de %d operatori.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d operator.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d operatori.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Nu se pot introduce mai mult de %d cifre după separatorul zecimal.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d cifră după separatorul zecimal.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d cifre după separatorul zecimal.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Nu se pot introduce mai mult de %d cifre.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d cifră.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d cifre.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d persoane</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d persoană</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d persoane</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="converter_divider_margin">0.0dip</dimen>
+    <dimen name="converter_tv_unit_minWidth">30.0dip</dimen>
+    <dimen name="mtg_cal_btn_height">40.0dip</dimen>
+    <dimen name="mtg_cal_btn_text_size">18.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_height">72.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_height_with_keypad_show">54.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_width">322.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">270.0dip</dimen>
+    <dimen name="mtg_edit_text_padding">9.0dip</dimen>
+    <dimen name="mtg_edit_text_percent_padding">7.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_bottom">11.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_start">16.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_top">29.0dip</dimen>
+    <dimen name="mtg_items_comment_text_size">13.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">21.0dip</dimen>
+    <dimen name="mtg_items_height">79.0dip</dimen>
+    <dimen name="mtg_items_label_text_size">16.0dip</dimen>
+    <dimen name="mtg_items_padding_horizontal">18.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">18.0dip</dimen>
+    <dimen name="mtg_items_text_padding_bottom">12.0dip</dimen>
+    <dimen name="mtg_items_text_padding_top">12.0dip</dimen>
+    <dimen name="mtg_spinner_padding_lr">0.0dip</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="calc_history_divider_item">13.0dip</dimen>
+    <dimen name="converter_btn_back_height">56.0dip</dimen>
+    <dimen name="converter_btn_back_padding_vertical">16.0dip</dimen>
+    <dimen name="converter_button_backspace_height">28.0dip</dimen>
+    <dimen name="converter_button_backspace_height_tablet">34.0dip</dimen>
+    <dimen name="converter_button_backspace_width">32.0dip</dimen>
+    <dimen name="converter_button_backspace_width_tablet">34.0dip</dimen>
+    <dimen name="converter_button_cover_up_height">30.0dip</dimen>
+    <dimen name="converter_button_cover_up_height_tablet">34.0dip</dimen>
+    <dimen name="converter_button_cover_up_width">28.0dip</dimen>
+    <dimen name="converter_button_cover_up_width_tablet">34.0dip</dimen>
+    <item type="dimen" name="converter_button_keypad_percent_height_tablet">17.68</item>
+    <dimen name="converter_divider_margin_horizontal_tablet">21.0dip</dimen>
+    <dimen name="converter_keypad_btn_backspace_padding_horizontal">18.319977dip</dimen>
+    <dimen name="converter_keypad_btn_backspace_padding_vertical">6.8799744dip</dimen>
+    <dimen name="converter_keypad_btn_clear_tablet_text_size">32.0dip</dimen>
+    <dimen name="converter_keypad_btn_clear_text_size">20.0dip</dimen>
+    <dimen name="converter_keypad_btn_clear_text_size_top_model">24.0dip</dimen>
+    <dimen name="converter_keypad_btn_dot_text_size">23.0dip</dimen>
+    <dimen name="converter_keypad_btn_height">40.0dip</dimen>
+    <dimen name="converter_keypad_btn_margin_horizontal">40.0dip</dimen>
+    <dimen name="converter_keypad_btn_margin_top">26.0dip</dimen>
+    <dimen name="converter_keypad_btn_margin_vertical">14.0dip</dimen>
+    <dimen name="converter_keypad_btn_next_padding_horizontal">16.789978dip</dimen>
+    <dimen name="converter_keypad_btn_next_padding_vertical">5.0dip</dimen>
+    <dimen name="converter_keypad_btn_number_multiwindow_text_size">27.0dip</dimen>
+    <dimen name="converter_keypad_btn_number_tablet_text_size">32.0dip</dimen>
+    <dimen name="converter_keypad_btn_number_text_size">23.0dip</dimen>
+    <dimen name="converter_keypad_btn_number_text_size_top_model">26.0dip</dimen>
+    <dimen name="converter_keypad_btn_plus_minus_tablet_text_size">30.0dip</dimen>
+    <dimen name="converter_keypad_btn_plus_minus_text_size">20.0dip</dimen>
+    <dimen name="converter_keypad_btn_plus_minus_text_size_top_model">20.0dip</dimen>
+    <item type="dimen" name="converter_keypad_btn_ratio_tablet">0.789</item>
+    <dimen name="converter_keypad_btn_width">58.0dip</dimen>
+    <item type="dimen" name="converter_keypad_margin_bottom_tablet">1.41</item>
+    <item type="dimen" name="converter_keypad_margin_left_tablet">1.423</item>
+    <item type="dimen" name="converter_keypad_margin_right_tablet">1.423</item>
+    <item type="dimen" name="converter_keypad_margin_top_tablet">1.18</item>
+    <dimen name="converter_page_item_btn_done_layout_margin_bottom">4.0dip</dimen>
+    <dimen name="converter_page_item_btn_done_layout_margin_top">12.0dip</dimen>
+    <dimen name="converter_page_item_edit_text_margin_end_tablet">14.0dip</dimen>
+    <dimen name="converter_page_item_edit_text_padding_bottom">10.0dip</dimen>
+    <dimen name="converter_page_item_tip_amount_margin_bottom_top_model">15.0dip</dimen>
+    <dimen name="converter_page_item_tip_unit_dialog_margin_horizontal">0.0dip</dimen>
+    <dimen name="converter_tab_item_margin_left">36.0dip</dimen>
+    <dimen name="converter_title_actionbar_text_size">19.0dip</dimen>
+    <dimen name="converter_toolbar_height">56.0dip</dimen>
+</resources>

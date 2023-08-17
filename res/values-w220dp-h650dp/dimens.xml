@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calc_btn_background_radius">35.0dip</dimen>
+    <dimen name="mtg_cal_btn_height">30.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_height">54.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_height_with_keypad_show">41.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_width">144.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">120.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">19.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">16.0dip</dimen>
+    <dimen name="mtg_result_detail_list_month_start_padding">18.0dip</dimen>
+</resources>

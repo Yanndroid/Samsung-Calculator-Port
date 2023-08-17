@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/ripple_effect"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/history_copy_share_background" />
+            <corners android:topLeftRadius="12.0dip" android:topRightRadius="0.100000024dip" android:bottomLeftRadius="12.0dip" android:bottomRightRadius="0.100000024dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="?android:colorAccent" />
+            <corners android:topLeftRadius="12.0dip" android:topRightRadius="0.100000024dip" android:bottomLeftRadius="12.0dip" android:bottomRightRadius="0.100000024dip" />
+        </shape>
+    </item>
+</ripple>

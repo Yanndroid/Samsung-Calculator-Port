@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/shape_background">
+        <shape>
+            <size android:height="@dimen/calc_keypad_btn_height_phone" android:width="@dimen/calc_keypad_btn_width_phone" />
+            <corners android:radius="@dimen/calc_keypad_btn_radius_phone" />
+            <solid android:color="@color/calc_keypad_number_button_bg" />
+        </shape>
+    </item>
+    <item android:id="@id/shape_effect" android:drawable="@drawable/calculator_btn_shape_effect" />
+</layer-list>

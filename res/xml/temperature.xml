@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Unit>
+    <name>Celsius</name>
+    <value>Celsius</value>
+    <name>Fahrenheit</name>
+    <value>Fahrenheit</value>
+    <name>Kelvin</name>
+    <value>Kelvin</value>
+</Unit>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Не може да се въведат повече от %d знака.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не може да се въведе повече от %d знак.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Не може да въведете повече от %d оператора.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не може да въведете повече от %d оператор.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Не може да въведете повече от %d цифри след десетичната точка.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не може да въведете повече от %d цифра след десетичната точка.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Не може да се въведат повече от %d цифри.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Не може да се въведе повече от %d цифра.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d души</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d човек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

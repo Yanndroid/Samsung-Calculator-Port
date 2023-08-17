@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/converter_drop_down_padding_left" android:paddingRight="@dimen/converter_drop_down_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/ic_checked_rtl_area" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/converter_drop_down_padding_right">
+        <ImageView android:layout_gravity="end|center" android:id="@id/dropdown_ic_checked_rtl" android:layout_width="0.0dip" android:layout_height="@dimen/converter_drop_down_item_checked_layout_height" android:src="@drawable/tw_dropdown_ic_check" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/unit_adapter_item_area" android:paddingTop="@dimen/converter_drop_down_padding_top" android:paddingBottom="@dimen/converter_drop_down_padding_top" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="10.0">
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_unit_adapter_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentStart="true" style="@style/spinner_item_style" />
+        <TextView android:gravity="center_vertical" android:id="@id/tv_unit_symbol_adapter_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/converter_drop_down_unit_margin_start" android:layout_toEndOf="@id/tv_unit_adapter_item" style="@style/spinner_item_style" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/ic_checked_ltr_area" android:layout_width="@dimen/converter_drop_down_item_checked_layout_height" android:layout_height="fill_parent" android:layout_marginStart="@dimen/converter_drop_down_padding_right">
+        <ImageView android:layout_gravity="end|center" android:id="@id/dropdown_ic_checked_ltr" android:layout_width="fill_parent" android:layout_height="@dimen/converter_drop_down_item_checked_layout_height" android:src="@drawable/tw_dropdown_ic_check" />
+    </LinearLayout>
+</LinearLayout>

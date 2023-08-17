@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/spinner_dropdown_ic_check" android:tint="@color/tw_dropdown_ic_check"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

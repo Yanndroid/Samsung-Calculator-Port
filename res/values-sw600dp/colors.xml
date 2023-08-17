@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="converter_edit_divider">@color/keypad_divider</color>
+</resources>

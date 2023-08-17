@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="calc_text_size_phone_large_land">34</integer>
+    <integer name="calc_text_size_phone_medium_land">30</integer>
+    <item type="integer" name="converter_button_margin_top_phone">5.4</item>
+    <item type="integer" name="converter_keypad_margin_bottom_percent_phone">10.0</item>
+    <item type="integer" name="converter_keypad_margin_top_percent_phone">10.0</item>
+    <item type="integer" name="converter_page_item_tip_number_layout_margin_bottom_multiwindow_top_model">1.9</item>
+    <item type="integer" name="converter_page_item_tip_unit_dialog_width">55.0</item>
+    <item type="integer" name="converter_page_item_tip_unit_dialog_width_top_model">55.0</item>
+    <item type="integer" name="converter_page_percent_height_edit_text_tablet">14.33</item>
+    <item type="integer" name="converter_page_percent_height_padding_bottom_edit_text_tablet">3.96</item>
+    <item type="integer" name="converter_page_percent_height_padding_vertical_spinner_tablet">2.8</item>
+    <item type="integer" name="converter_page_percent_height_spinner_phone">22.32</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_layout_phone">20.97</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_layout_tablet">10.56</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_layout_top_model">11.04</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_layout_top_model_sub_screen">15.0</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_phone">12.1</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_tablet">4.95</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_tablet_multi_window">4.95</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_top_model">5.0</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_top_model_multi_window">8.6</item>
+    <item type="integer" name="converter_page_percent_height_sub_total_top_model_sub_screen">9.2</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_group_layout_phone">25.0</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_group_layout_tablet">14.36</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_group_layout_top_model">15.71</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_group_layout_top_model_sub_screen">25.71</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_result_layout_phone">16.13</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_result_layout_tablet">7.92</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_result_layout_tablet_multi_window">7.92</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_result_layout_top_model">9.7</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_result_layout_top_model_multi_window">18.9</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_result_layout_top_model_sub_screen">15.0</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_text_view_layout_phone">6.45</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_text_view_layout_tablet">3.3</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_text_view_layout_tablet_multi_window">3.3</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_text_view_layout_top_model">3.82</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_text_view_layout_top_model_multi_window">6.85</item>
+    <item type="integer" name="converter_page_percent_height_tip_amount_text_view_layout_top_model_sub_screen">5.5</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_group_layout_phone">25.0</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_group_layout_tablet">14.36</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_group_layout_top_model">18.9</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_layout_phone">14.52</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_layout_tablet">5.94</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_layout_tablet_multi_window">5.94</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_layout_top_model">7.64</item>
+    <item type="integer" name="converter_page_percent_height_tip_number_layout_top_model_sub_screen">8.95</item>
+    <item type="integer" name="converter_page_percent_spinner_height_tablet">10.54</item>
+    <item type="integer" name="converter_percent_height_view_pager_phone">76.64</item>
+    <item type="integer" name="converter_percent_height_view_pager_tablet">90.33</item>
+</resources>

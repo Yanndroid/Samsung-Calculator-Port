@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locale_converter_area_items">
+        <item>@string/area_item_zh_qing</item>
+        <item>@string/area_item_zh_mu</item>
+    </string-array>
+    <string-array name="locale_tv_area_items">
+        <item>@string/tv_area_item_zh_qing</item>
+        <item>@string/tv_area_item_zh_mu</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/converter_btn_background_height" android:width="@dimen/converter_btn_background_width" />
+    <corners android:radius="@dimen/converter_btn_background_radius" />
+    <solid android:color="@color/calc_btn_background_color_focus" />
+</shape>

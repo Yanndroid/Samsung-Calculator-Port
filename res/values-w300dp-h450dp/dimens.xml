@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtg_cal_btn_margin_bottom">10.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_width">144.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">120.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">17.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">15.0dip</dimen>
+    <dimen name="mtg_period_dialog_picker_unit_margin">21.0dip</dimen>
+    <dimen name="mtg_period_dialog_picker_unit_text_size">32.0dip</dimen>
+    <dimen name="mtg_period_dialog_picker_width">88.0dip</dimen>
+</resources>

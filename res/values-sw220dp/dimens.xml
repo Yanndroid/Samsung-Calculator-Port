@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtg_edit_text_padding">6.0dip</dimen>
+    <dimen name="mtg_edit_text_percent_padding">4.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">15.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">15.0dip</dimen>
+</resources>

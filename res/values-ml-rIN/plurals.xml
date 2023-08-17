@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">%d-ൽ കൂടുതൽ അക്ഷരങ്ങൾ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ൽ കൂടുതൽ അക്ഷരം നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">ഓപ്പറേറ്റർമാരെ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓപ്പറേറ്ററെ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">ദശാംശ ചിഹ്നത്തിന് ശേഷം %d അക്കങ്ങളിൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ദശാംശ ചിഹ്നത്തിന് ശേഷം %d അക്കത്തിൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">%d-ൽ കൂടുതൽ അക്കങ്ങൾ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ൽ കൂടുതൽ അക്കം നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d ആളുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വ്യക്തി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

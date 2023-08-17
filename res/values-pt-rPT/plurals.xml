@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Impossível introduzir mais de %d caracteres.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossível introduzir mais de %d carácter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Impossível introduzir mais de %d operadores.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossível introduzir mais de %d operador.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Impossível introduzir mais de %d dígitos depois da vírgula decimal.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossível introduzir mais de %d dígito depois da vírgula decimal.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Impossível introduzir mais de %d dígitos.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossível introduzir mais de %d dígito.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d pessoas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pessoa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

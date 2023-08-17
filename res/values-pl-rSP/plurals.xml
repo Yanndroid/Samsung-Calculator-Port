@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Niy idzie podać wiyncyj jak %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie podać wiyncyj jak %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie podać wiyncyj jak %d znakōw.</item>
+        <item quantity="many">Niy idzie podać wiyncyj jak %d znakōw.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Niy idzie wkludzić wiyncyj co %d ôperatorōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie wkludzić wiyncyj co %d ôperatora.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie wkludzić wiyncyj co %d ôperatorōw.</item>
+        <item quantity="many">Niy idzie wkludzić wiyncyj co %d ôperatorōw.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Niy idzie wkludzić wiyncyj co %d cyfer po przecinku.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie wkludzić wiyncyj co %d cyfry po przecinku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie wkludzić wiyncyj co %d cyfer po przecinku.</item>
+        <item quantity="many">Niy idzie wkludzić wiyncyj co %d cyfer po przecinku.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Niy idzie podać wiyncyj jak %d cyfrōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Niy idzie podać wiyncyj jak %d cyfrōw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Niy idzie podać wiyncyj jak %d cyfrōw.</item>
+        <item quantity="many">Niy idzie podać wiyncyj jak %d cyfrōw.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d osoby</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osoby</item>
+        <item quantity="many">%d osób</item>
+    </plurals>
+</resources>

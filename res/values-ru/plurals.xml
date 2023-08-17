@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Невозможно ввести более %d символа.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно ввести более %d символа.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно ввести более %d символов.</item>
+        <item quantity="many">Невозможно ввести более %d символов.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Можно ввести не более %d знака операции.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можно ввести не более %d знака операции.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можно ввести не более %d знаков операции.</item>
+        <item quantity="many">Можно ввести не более %d знаков операции.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">После десятичной запятой можно ввести не более %d цифры.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">После десятичной запятой можно ввести не более %d цифры.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">После десятичной запятой можно ввести не более %d цифр.</item>
+        <item quantity="many">После десятичной запятой можно ввести не более %d цифр.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Невозможно ввести более %d цифры.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Невозможно ввести более %d цифры.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Невозможно ввести более %d цифр.</item>
+        <item quantity="many">Невозможно ввести более %d цифр.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d человека</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d человек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d человека</item>
+        <item quantity="many">%d людей</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/converter_tab_item_layout" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/converter_tab_title_text_size" android:textColor="@color/calc_tab_title_default" android:gravity="center" android:id="@id/converter_tab_item_title" android:background="@drawable/mortgage_tab_bg" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/category_area" android:fontFamily="@string/sec_regular" />
+</LinearLayout>

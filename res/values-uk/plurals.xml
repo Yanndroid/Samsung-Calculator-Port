@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Неможливо ввести більше %d символу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо ввести більше %d символу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо ввести більше %d символів.</item>
+        <item quantity="many">Неможливо ввести більше %d символів.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Можна ввести не більше ніж %d знака операції.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Можна ввести не більше ніж %d знак операції.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Можна ввести не більше ніж %d знаки операції.</item>
+        <item quantity="many">Можна ввести не більше ніж %d знаків операції.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Після десяткової коми можна ввести не більше ніж %d цифри.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Після десяткової коми можна ввести не більше ніж %d цифру.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Після десяткової коми можна ввести не більше ніж %d цифри.</item>
+        <item quantity="many">Після десяткової коми можна ввести не більше ніж %d цифр.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Неможливо ввести більше %d цифри.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Неможливо ввести більше %d цифри.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Неможливо ввести більше %d цифр.</item>
+        <item quantity="many">Неможливо ввести більше %d цифр.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d людини</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d людина</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d людини</item>
+        <item quantity="many">%d людей</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calc_keypad_btn_add_text_size_tablet">43.0dip</dimen>
+    <dimen name="calc_keypad_btn_clear_text_size_tablet">28.0dip</dimen>
+    <dimen name="calc_keypad_btn_deg_rad_text_size_tablet">20.0dip</dimen>
+    <dimen name="calc_keypad_btn_div_text_size_tablet">44.0dip</dimen>
+    <dimen name="calc_keypad_btn_mul_text_size_tablet">44.0dip</dimen>
+    <dimen name="calc_keypad_btn_number_text_size_tablet">27.0dip</dimen>
+    <dimen name="calc_keypad_btn_parenthesis_text_size_tablet">21.0dip</dimen>
+    <dimen name="calc_keypad_btn_percentage_text_size_tablet">29.0dip</dimen>
+    <dimen name="calc_keypad_btn_sub_text_size_tablet">48.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">18.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">18.0dip</dimen>
+</resources>

@@ -1,0 +1,31 @@
+!!brut.androlib.apk.ApkInfo
+apkFileName: com.sec.android.app.popupcalculator_12.2.00.4-1220004000.apk
+doNotCompress:
+- classes.dex
+- resources.arsc
+- lib/arm64-v8a/libDiagMonKey.so
+- lib/armeabi-v7a/libDiagMonKey.so
+- png
+- res/raw/keypress_delete.ogg
+- res/raw/keypress_standard.ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo:
+  minSdkVersion: '31'
+  targetSdkVersion: '33'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  SEC-INF/buildConfirm.crt: '8'
+  SEC-INF/buildinfo.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: '1220004000'
+  versionName: 12.2.00.4

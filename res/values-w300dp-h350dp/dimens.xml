@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtg_cal_btn_touch_width">216.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">180.0dip</dimen>
+</resources>

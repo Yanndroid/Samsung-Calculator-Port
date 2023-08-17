@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Nie można wprowadzić więcej niż %d znaków.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można wprowadzić więcej niż %d znaku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można wprowadzić więcej niż %d znaków.</item>
+        <item quantity="many">Nie można wprowadzić więcej niż %d znaków.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Nie można wprowadzić więcej niż %d operatorów.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można wprowadzić więcej niż %d operatora.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można wprowadzić więcej niż %d operatorów.</item>
+        <item quantity="many">Nie można wprowadzić więcej niż %d operatorów.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Nie można wprowadzić więcej niż %d cyfr po przecinku.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można wprowadzić więcej niż %d cyfry po przecinku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można wprowadzić więcej niż %d cyfr po przecinku.</item>
+        <item quantity="many">Nie można wprowadzić więcej niż %d cyfr po przecinku.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Nie można wprowadzić więcej niż %d cyfr.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nie można wprowadzić więcej niż %d cyfry.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nie można wprowadzić więcej niż %d cyfr.</item>
+        <item quantity="many">Nie można wprowadzić więcej niż %d cyfr.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d osoby</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osoby</item>
+        <item quantity="many">%d osób</item>
+    </plurals>
+</resources>

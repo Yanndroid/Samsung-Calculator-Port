@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Ne možete da unesete više od %d karaktera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ne možete da unesete više od %d karaktera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ne možete da unesete više od %d karaktera.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Možete da unesete najviše %d operatora.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da unesete najviše %d operatora.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da unesete najviše %d operatora.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Posle decimalnog zareza možete da unesete najviše %d cifara.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Posle decimalnog zareza možete da unesete najviše %d cifru.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Posle decimalnog zareza možete da unesete najviše %d cifre.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Možete da dodate najviše %d cifara.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da dodate najviše %d cifru.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da dodate najviše %d cifre.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d osoba</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osobe</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="calc_text_size_phone_large_port">24</integer>
+    <integer name="calc_text_size_phone_medium_port">20</integer>
+    <integer name="calc_text_size_phone_small_port">16</integer>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+        <item quantity="many">Немагчыма ўвесці больш за наступную колькасць сімвалаў: %d.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Немагчыма ўвесці больш %d аператараў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d аператара.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d аператараў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d аператараў.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Немагчыма ўвесці больш %d лічбаў пасля дзесятковага раздзяляльніка.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d лічбы пасля дзесятковага раздзяляльніка.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d лічбаў пасля дзесятковага раздзяляльніка.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d лічбаў пасля дзесятковага раздзяляльніка.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Немагчыма ўвесці больш за %d лічбаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш за %d лічбу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш за %d лічбы.</item>
+        <item quantity="many">Немагчыма ўвесці больш за %d лічбаў.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d чалавек</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d чалавек</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d чалавекі</item>
+        <item quantity="many">%d чалавек</item>
+    </plurals>
+</resources>

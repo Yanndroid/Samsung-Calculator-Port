@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtg_cal_btn_height">30.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_height">54.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_height_with_keypad_show">41.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_width">240.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">200.0dip</dimen>
+</resources>

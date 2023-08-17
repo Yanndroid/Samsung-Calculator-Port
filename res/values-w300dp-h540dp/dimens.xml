@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtg_edit_text_padding">9.0dip</dimen>
+    <dimen name="mtg_edit_text_percent_padding">7.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_bottom">11.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_start">16.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_top">29.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">21.0dip</dimen>
+    <dimen name="mtg_items_height">79.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">18.0dip</dimen>
+    <dimen name="mtg_period_dialog_btn_margin_b">16.0dip</dimen>
+    <dimen name="mtg_period_dialog_btn_margin_t">20.0dip</dimen>
+    <dimen name="mtg_period_dialog_btn_touch_height">73.0dip</dimen>
+    <dimen name="mtg_period_dialog_h">300.0dip</dimen>
+    <dimen name="mtg_period_dialog_title_h">67.0dip</dimen>
+</resources>

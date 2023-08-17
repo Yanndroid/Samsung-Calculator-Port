@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="locale_converter_area_items">
+        <item>@string/area_item_ko_pyong</item>
+    </string-array>
+    <string-array name="locale_converter_length_items">
+        <item>@string/dis_item_ko_ja</item>
+        <item>@string/dis_item_ko_li</item>
+    </string-array>
+    <string-array name="locale_converter_mass_items">
+        <item>@string/weight_item_ko_gun</item>
+        <item>@string/weight_item_ko_don</item>
+    </string-array>
+    <string-array name="locale_converter_volume_items">
+        <item>@string/volume_item_ko_mal</item>
+        <item>@string/volume_item_ko_doi</item>
+    </string-array>
+    <string-array name="locale_tv_area_items">
+        <item>@string/tv_area_item_ko_pyong</item>
+    </string-array>
+    <string-array name="locale_tv_length_items">
+        <item>@string/tv_length_item_ko_ja</item>
+        <item>@string/tv_length_item_ko_li</item>
+    </string-array>
+    <string-array name="locale_tv_mass_items">
+        <item>@string/tv_mass_item_ko_gun</item>
+        <item>@string/tv_mass_item_ko_don</item>
+    </string-array>
+    <string-array name="locale_tv_volume_items">
+        <item>@string/tv_volume_item_ko_mal</item>
+        <item>@string/tv_volume_item_ko_doi</item>
+    </string-array>
+</resources>

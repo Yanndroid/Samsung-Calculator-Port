@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Ní féidir níos mó ná %d oibreoir a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d oibreoir a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d oibreoir a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d oibreoir a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d n-oibreoir a iontráil.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Ní féidir níos mó ná %d digit a iontráil tar éis an phointe dheachúlaigh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d digit a iontráil tar éis an phointe dheachúlaigh.</item>
+        <item quantity="two">Ní féidir níos mó ná %d dhigit a iontráil tar éis an phointe dheachúlaigh.</item>
+        <item quantity="few">Ní féidir níos mó ná %d dhigit a iontráil tar éis an phointe dheachúlaigh.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ndigit a iontráil tar éis an phointe dheachúlaigh.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Ní féidir níos mó ná %d digit a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d digit a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d dhigit a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d dhigit a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ndigit a iontráil.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d duine</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d duine</item>
+        <item quantity="two">%d dhuine</item>
+        <item quantity="few">%d dhuine</item>
+        <item quantity="many">%d nduine</item>
+    </plurals>
+</resources>

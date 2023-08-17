@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Vnesete lahko največ %d znakov.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vnesete lahko največ %d znak.</item>
+        <item quantity="two">Vnesete lahko največ %d znaka.</item>
+        <item quantity="few">Vnesete lahko največ %d znake.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Ni mogoče vnesti več kot %d računskih operatorjev.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ni mogoče vnesti več kot %d računski operator.</item>
+        <item quantity="two">Ni mogoče vnesti več kot %d računska operatorja.</item>
+        <item quantity="few">Ni mogoče vnesti več kot %d računske operatorje.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Za decimalnim mestom ni mogoče vnesti več kot %d decimalk.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za decimalnim mestom ni mogoče vnesti več kot %d decimalko.</item>
+        <item quantity="two">Za decimalnim mestom ni mogoče vnesti več kot %d decimalki.</item>
+        <item quantity="few">Za decimalnim mestom ni mogoče vnesti več kot %d decimalke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Vnesete lahko največ %d številk.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vnesete lahko največ %d številko.</item>
+        <item quantity="two">Vnesete lahko največ %d številki.</item>
+        <item quantity="few">Vnesete lahko največ %d številke.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d oseb</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oseba</item>
+        <item quantity="two">%d osebi</item>
+        <item quantity="few">%d osebe</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

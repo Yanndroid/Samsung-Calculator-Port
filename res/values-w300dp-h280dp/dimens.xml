@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="converter_tv_unit_minWidth">0.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_width">72.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">60.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">13.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">11.0dip</dimen>
+    <dimen name="mtg_items_text_padding_top">0.0dip</dimen>
+</resources>

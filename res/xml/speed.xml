@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Unit>
+    <name>Meter per second</name>
+    <value>1</value>
+    <name>Meter per hour</name>
+    <value>1÷3600</value>
+    <name>Kilometer per second</name>
+    <value>1000</value>
+    <name>Kilometer per hour</name>
+    <value>1000÷3600</value>
+    <name>Inch per second</name>
+    <value>0.0254</value>
+    <name>Inch per hour</name>
+    <value>0.0254÷3600</value>
+    <name>Foot per second</name>
+    <value>0.3048</value>
+    <name>Foot per hour</name>
+    <value>0.3048÷3600</value>
+    <name>Mile per second</name>
+    <value>1609.344</value>
+    <name>Mile per second</name>
+    <value>0.44704</value>
+    <name>Knot</name>
+    <value>1852÷3600</value>
+</Unit>

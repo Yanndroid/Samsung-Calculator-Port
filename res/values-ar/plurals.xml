@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفاً.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">يتعذر إدخال أكثر من %d مشغل.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d مشغل.</item>
+        <item quantity="one">يتعذر إدخال أكثر من مشغل واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من مشغلَين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d مشغلين.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d مشغلاً.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">يتعذر إدخال أكثر من %d رقم بعد النقطة العشرية.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d رقم بعد النقطة العشرية.</item>
+        <item quantity="one">يتعذر إدخال أكثر من رقم واحد بعد النقطة العشرية.</item>
+        <item quantity="two">يتعذر إدخال أكثر من رقمَين بعد النقطة العشرية.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أرقام بعد النقطة العشرية.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d رقماً بعد النقطة العشرية.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">يتعذر إدخال أكثر من %d رقم.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d رقم.</item>
+        <item quantity="one">يتعذر إدخال أكثر من رقم واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من رقمَين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أرقام.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d رقماً.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d شخص</item>
+        <item quantity="zero">%d شخص</item>
+        <item quantity="one">شخص واحد</item>
+        <item quantity="two">شخصان</item>
+        <item quantity="few">%d أشخاص</item>
+        <item quantity="many">%d شخصاً</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/mtg_cal_btn_radius" />
+    <size android:height="@dimen/mtg_cal_btn_height" />
+    <solid android:color="@color/mtg_calculate_btn_stroke_color" />
+    <stroke android:width="@dimen/calc_btn_background_stroke_width" android:color="@color/mtg_calculate_btn_stroke_color" />
+</shape>

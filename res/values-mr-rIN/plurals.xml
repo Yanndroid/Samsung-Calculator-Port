@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">%d पेक्षा अधिक वर्ण प्रविष्ट करू शकत नाही.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पेक्षा अधिक वर्ण प्रविष्ट करू शकत नाही.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">%d पेक्षा अधिक ऑपरेटर प्रविष्ट करू शकत नाहीत.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पेक्षा अधिक ऑपरेटर प्रविष्ट करू शकत नाही.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">दशांश चिन्हा नंतर %d पेक्षा अधिक अंक प्रविष्ट करू शकत नाहीत.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">दशांश चिन्हा नंतर %d पेक्षा अधिक अंक प्रविष्ट करू शकत नाही.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">%d पेक्षा अधिक अंक प्रविष्ट करू शकत नाही.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d पेक्षा अधिक अंक प्रविष्ट करू शकत नाही.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d लोक</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d व्यक्ती</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

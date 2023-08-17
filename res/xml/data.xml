@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Unit>
+    <name>Bit</name>
+    <value>0.125</value>
+    <name>Byte</name>
+    <value>1</value>
+    <name>Kilobyte</name>
+    <value>1000</value>
+    <name>Kibibyte</name>
+    <value>1024</value>
+    <name>Megabyte</name>
+    <value>1000000</value>
+    <name>Mebibyte</name>
+    <value>1048576</value>
+    <name>Gigabyte</name>
+    <value>1000000000</value>
+    <name>Gibibyte</name>
+    <value>1073741824</value>
+    <name>Terabyte</name>
+    <value>10^12</value>
+    <name>Tebibyte</name>
+    <value>1099511627776</value>
+</Unit>

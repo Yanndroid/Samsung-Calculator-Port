@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/mtg_items_padding_lr" android:paddingRight="@dimen/mtg_items_padding_lr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/monthly_repayments" android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_items_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_monthly_payment_height">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:id="@id/payment_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_monthly_repayments" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/mtg_result_items_spn_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/average_monthly_repayments_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/converter_tv_unit_minWidth" android:text="@string/mtg_currency_unit" android:layout_alignParentBottom="true" android:fontFamily="@string/roboto_light" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/mtg_result_items_edit_text_size" android:textColor="@color/converter_area_text" android:ellipsize="marquee" android:gravity="end" android:id="@id/average_monthly_repayments" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value_zero" android:singleLine="true" android:layout_alignParentBottom="true" android:textIsSelectable="true" android:fontFamily="@string/roboto_light" android:layout_marginEnd="@dimen/converter_unit_text_padding_right" android:layout_toStartOf="@id/average_monthly_repayments_unit" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/monthly_decrease" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_items_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_height">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_monthly_decrease" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/mtg_result_items_spn_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/monthly_decrease_result_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/converter_tv_unit_minWidth" android:text="@string/mtg_currency_unit" android:layout_alignParentBottom="true" android:fontFamily="@string/roboto_light" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/mtg_result_items_edit_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/monthly_decrease_result" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value_zero" android:layout_alignParentBottom="true" android:textIsSelectable="true" android:fontFamily="@string/roboto_light" android:layout_marginEnd="@dimen/converter_unit_text_padding_right" android:layout_toStartOf="@id/monthly_decrease_result_unit" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_items_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_height">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_period" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/mtg_result_items_spn_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/repayment_period_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/converter_tv_unit_minWidth" android:text="@string/mtg_years" android:layout_alignParentBottom="true" android:fontFamily="@string/roboto_light" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/mtg_result_items_edit_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/repayment_period" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value_zero" android:layout_alignParentBottom="true" android:textIsSelectable="true" android:fontFamily="@string/roboto_light" android:layout_marginEnd="@dimen/converter_unit_text_padding_right" android:layout_toStartOf="@id/repayment_period_unit" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_items_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_height">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_amount" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/mtg_result_items_spn_text_size" android:textColor="@color/real_time_result" android:gravity="end" android:id="@id/loan_amount_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/converter_tv_unit_minWidth" android:text="@string/mtg_unit_ten_thousand" android:layout_alignParentBottom="true" android:fontFamily="@string/roboto_light" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/mtg_result_items_edit_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/loan_amount" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value_zero" android:layout_alignParentBottom="true" android:textIsSelectable="true" android:fontFamily="@string/roboto_light" android:layout_marginEnd="@dimen/converter_unit_text_padding_right" android:layout_toStartOf="@id/loan_amount_unit" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_items_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_height">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_gross_interest" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/mtg_result_items_spn_text_size" android:textColor="@color/real_time_result" android:gravity="end" android:id="@id/gross_interest_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/converter_tv_unit_minWidth" android:text="@string/mtg_unit_ten_thousand" android:layout_alignParentBottom="true" android:fontFamily="@string/roboto_light" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/mtg_result_items_edit_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/gross_interest" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value_zero" android:layout_alignParentBottom="true" android:textIsSelectable="true" android:fontFamily="@string/roboto_light" android:layout_marginEnd="@dimen/converter_unit_text_padding_right" android:layout_toStartOf="@id/gross_interest_unit" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_items_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_height">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_total_payment_amount" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/mtg_result_items_spn_text_size" android:textColor="@color/real_time_result" android:gravity="end" android:id="@id/total_payment_amount_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/converter_tv_unit_minWidth" android:text="@string/mtg_unit_ten_thousand" android:layout_alignParentBottom="true" android:fontFamily="@string/roboto_light" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="@dimen/mtg_result_items_edit_text_size" android:textColor="@color/converter_area_text" android:gravity="end" android:id="@id/total_payment_amount" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/value_zero" android:layout_alignParentBottom="true" android:textIsSelectable="true" android:fontFamily="@string/roboto_light" android:layout_marginEnd="@dimen/converter_unit_text_padding_right" android:layout_toStartOf="@id/total_payment_amount_unit" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/show_detail_layout" android:background="?android:selectableItemBackground" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/mtg_details_title">
+                <TextView android:textSize="@dimen/mtg_result_items_label_text_size" android:textColor="@color/converter_area_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_details_title" android:layout_centerVertical="true" android:fontFamily="@string/roboto_light" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <ImageView android:id="@id/mtg_detail_iv_ltr" android:background="@drawable/calculator_btn_back" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_centerVertical="true" android:contentDescription="@string/mtg_details_title" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

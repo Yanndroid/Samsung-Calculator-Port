@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mortgage_type_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/mtg_items_height" android:paddingStart="@dimen/mtg_items_padding_horizontal" android:paddingEnd="0.0dip">
+            <TextView android:textSize="@dimen/mtg_items_label_text_size" android:textColor="@color/converter_area_text" android:ellipsize="end" android:paddingTop="@dimen/mtg_items_text_padding_top" android:paddingBottom="@dimen/mtg_tibetan_display_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mtg_type" android:maxLines="1" android:fontFamily="@string/roboto_light" />
+            <com.sec.android.app.popupcalculator.converter.mortgage.view.CustomizedConverterSpinner android:theme="@android:style/Theme.DeviceDefault.Light" android:id="@id/sliding_tab" android:background="@android:color/transparent" android:paddingTop="@dimen/mtg_items_Spinner_padding_top" android:paddingBottom="@dimen/mtg_items_Spinner_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:popupBackground="@drawable/dropdown_list_bg" android:layout_alignParentBottom="true" android:paddingStart="@dimen/mtg_items_Spinner_padding_start" android:paddingEnd="@dimen/mtg_items_padding_horizontal" android:layout_alignParentEnd="true" android:popupElevation="@dimen/converter_elevation_dropdown_list" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/converter_edit_divider" android:layout_width="fill_parent" android:layout_height="@dimen/calc_keypad_divider" android:layout_marginLeft="@dimen/mtg_items_padding_horizontal" android:layout_marginRight="@dimen/mtg_items_padding_horizontal" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

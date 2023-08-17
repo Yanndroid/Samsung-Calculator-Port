@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmju.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Var ievadīt ne vairāk kā %d operatorus.</item>
+        <item quantity="zero">Var ievadīt ne vairāk kā %d operatorus.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d operatoru.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Aiz komata var ievadīt ne vairāk kā %d ciparus.</item>
+        <item quantity="zero">Aiz komata var ievadīt ne vairāk kā %d ciparus.</item>
+        <item quantity="one">Aiz komata var ievadīt ne vairāk kā %d ciparu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Var ievadīt ne vairāk kā %d ciparus.</item>
+        <item quantity="zero">Var ievadīt ne vairāk kā %d ciparus.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d ciparu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d personas</item>
+        <item quantity="zero">%d personas</item>
+        <item quantity="one">%d persona</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

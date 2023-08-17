@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අනුලකුණු %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">මෙහෙයවන්නන් %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">මෙහෙයවන්නන් %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">දශම සංඛ්‍යාවට පසුව සංඛ්‍යා %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">දශම සංඛ්‍යාවට පසුව සංඛ්‍යා %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">සංඛ්‍යා %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">සංඛ්‍යා %dකට වඩා ඇතුළු කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">පුද්ගලයින් %dක්</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d පුද්ගලයෙක්</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

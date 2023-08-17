@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtg_cal_btn_margin_bottom">0.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_bottom">7.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_start">10.0dip</dimen>
+    <dimen name="mtg_items_Spinner_padding_top">18.0dip</dimen>
+    <dimen name="mtg_items_height">49.0dip</dimen>
+    <dimen name="mtg_period_dialog_btn_margin_b">5.0dip</dimen>
+    <dimen name="mtg_period_dialog_btn_margin_t">4.0dip</dimen>
+    <dimen name="mtg_period_dialog_btn_touch_height">43.0dip</dimen>
+    <dimen name="mtg_period_dialog_h">190.0dip</dimen>
+    <dimen name="mtg_period_dialog_picker_unit_margin">14.0dip</dimen>
+    <dimen name="mtg_period_dialog_picker_unit_text_size">22.0dip</dimen>
+    <dimen name="mtg_period_dialog_picker_width">61.0dip</dimen>
+    <dimen name="mtg_period_dialog_title_h">50.0dip</dimen>
+</resources>

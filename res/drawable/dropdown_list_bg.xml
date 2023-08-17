@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="0.75dip" android:color="@color/converter_spinner_dropdown_stroke" />
+            <solid android:color="@color/dropdown_spinner_background" />
+            <corners android:radius="@dimen/converter_drop_down_radius" />
+        </shape>
+    </item>
+</layer-list>

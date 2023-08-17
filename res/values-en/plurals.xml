@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">"Can't enter more than %d characters."</item>
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">"Can't enter more than %d operators."</item>
+        <item quantity="zero">"Can't enter more than %d operators."</item>
+        <item quantity="one">"Can't enter more than %d operator."</item>
+        <item quantity="two">"Can't enter more than %d operators."</item>
+        <item quantity="few">"Can't enter more than %d operators."</item>
+        <item quantity="many">"Can't enter more than %d operators."</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">"Can't enter more than %d digits after decimal point."</item>
+        <item quantity="zero">"Can't enter more than %d digits after decimal point."</item>
+        <item quantity="one">"Can't enter more than %d digit after decimal point."</item>
+        <item quantity="two">"Can't enter more than %d digits after decimal point."</item>
+        <item quantity="few">"Can't enter more than %d digits after decimal point."</item>
+        <item quantity="many">"Can't enter more than %d digits after decimal point."</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">"Can't enter more than %d digits."</item>
+        <item quantity="zero">"Can't enter more than %d digits."</item>
+        <item quantity="one">"Can't enter more than %d digit."</item>
+        <item quantity="two">"Can't enter more than %d digits."</item>
+        <item quantity="few">"Can't enter more than %d digits."</item>
+        <item quantity="many">"Can't enter more than %d digits."</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d people</item>
+        <item quantity="zero">%d people</item>
+        <item quantity="one">%d person</item>
+        <item quantity="two">%d people</item>
+        <item quantity="few">%d people</item>
+        <item quantity="many">%d people</item>
+    </plurals>
+</resources>

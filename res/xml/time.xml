@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Unit>
+    <name>Millisecond</name>
+    <value>0.001</value>
+    <name>Second</name>
+    <value>1</value>
+    <name>Minute</name>
+    <value>60</value>
+    <name>Hour</name>
+    <value>3600</value>
+    <name>Day</name>
+    <value>86400</value>
+    <name>Week</name>
+    <value>604800</value>
+</Unit>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">Nelze zadat více než %d operátorů.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d operátora.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d operátory.</item>
+        <item quantity="many">Nelze zadat více než %d operátorů.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">Nelze zadat více než %d číslic za desetinnou čárkou.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d číslici za desetinnou čárkou.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d číslice za desetinnou čárkou.</item>
+        <item quantity="many">Nelze zadat více než %d číslic za desetinnou čárkou.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">Nelze zadat více než %d číslic.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d číslici.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d číslice.</item>
+        <item quantity="many">Nelze zadat více než %d číslic.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d osob</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d osoba</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d osoby</item>
+        <item quantity="many">%d osob</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/converter_highlight_button_radius" />
+    <solid android:color="@color/converter_tip_number_picker_text" />
+    <padding android:left="@dimen/converter_highlight_button_padding_start_end" android:top="@dimen/converter_highlight_button_padding_top_bottom" android:right="@dimen/converter_highlight_button_padding_start_end" android:bottom="@dimen/converter_highlight_button_padding_top_bottom" />
+</shape>

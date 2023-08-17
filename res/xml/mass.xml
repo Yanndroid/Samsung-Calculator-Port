@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Unit>
+    <name>Ton</name>
+    <value>1000000</value>
+    <name>UK Ton</name>
+    <value>1016046.9088</value>
+    <name>US Ton</name>
+    <value>907184.74</value>
+    <name>Pound</name>
+    <value>453.59237</value>
+    <name>Ounce</name>
+    <value>28.349523125</value>
+    <name>Kilogram</name>
+    <value>1000</value>
+    <name>Gram</name>
+    <value>1</value>
+</Unit>

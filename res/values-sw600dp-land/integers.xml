@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="calc_formula_height_percent_tablet">24.0</item>
+    <item type="integer" name="calc_handle_btn_height_percent_tablet">61.0</item>
+    <integer name="calc_keypad_btn_image_height_tablet">48</integer>
+    <integer name="calc_keypad_btn_image_width_tablet">80</integer>
+    <item type="integer" name="calc_keypad_margin_horizontal_percent_tablet">2.0</item>
+    <item type="integer" name="calc_keypad_margin_start_end_percent_tablet">3.09</item>
+    <item type="integer" name="calc_keypad_margin_top_bot_percent_tablet">9.01</item>
+    <item type="integer" name="calc_keypad_margin_vertical_percent_tablet">4.74</item>
+    <item type="integer" name="calc_result_height_percent_tablet">12.0</item>
+    <item type="integer" name="converter_button_margin_top_phone">6.17</item>
+    <item type="integer" name="converter_page_item_tip_unit_dialog_width">35.0</item>
+</resources>

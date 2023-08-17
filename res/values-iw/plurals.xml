@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="K_Error2_plural">
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="K_Error3_plural">
+        <item quantity="other">ניתן להזין לכל היותר %d אופרטורים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d אופרטור.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d אופרטורים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d אופרטורים.</item>
+    </plurals>
+    <plurals name="max_point_plural">
+        <item quantity="other">הזן לכל היותר %d ספרות לאחר הנקודה העשרונית.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">הזן לכל היותר %d ספרה לאחר הנקודה העשרונית.</item>
+        <item quantity="two">הזן לכל היותר %d ספרות לאחר הנקודה העשרונית.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">הזן לכל היותר %d ספרות לאחר הנקודה העשרונית.</item>
+    </plurals>
+    <plurals name="maximum_digits_exceeded_plural">
+        <item quantity="other">ניתן להזין לכל היותר %d ספרות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d ספרה.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d ספרות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d ספרות.</item>
+    </plurals>
+    <plurals name="person_people_plural">
+        <item quantity="other">%d אנשים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אדם %d</item>
+        <item quantity="two">%d אנשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אנשים</item>
+    </plurals>
+</resources>

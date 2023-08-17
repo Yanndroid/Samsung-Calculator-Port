@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/smart_tip_layout" android:background="@drawable/calculator_tips_background" android:layout_width="@dimen/tips_layout_width" android:layout_height="wrap_content" android:minWidth="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/tips_delete" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/tips_delete_button" android:layout_alignParentRight="true" app:tint="@color/tips_delete_button_color" />
+        <TextView android:textSize="@dimen/tips_content_text_size" android:textColor="@color/tips_text_color" android:id="@id/content_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:layout_marginBottom="@dimen/tips_content_margin_vertical" android:maxHeight="@dimen/tips_content_max_height" android:text="@string/tips_content" android:fontFamily="@string/sec_regular" android:layout_marginHorizontal="@dimen/tips_content_margin_horizontal" />
+    </RelativeLayout>
+</RelativeLayout>

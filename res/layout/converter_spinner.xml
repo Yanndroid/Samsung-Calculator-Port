@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ripple_effect_spinner" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/converter_page_spinner_text_size" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/converter_spinner_selected_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="4.0dip" style="@style/converter_spinner_style" />
+    <ImageView android:layout_gravity="start|center" android:layout_width="@dimen/converter_page_spinner_image_width" android:layout_height="@dimen/converter_page_spinner_image_height" android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/converter_spinner_icon" android:contentDescription="@null" />
+</LinearLayout>

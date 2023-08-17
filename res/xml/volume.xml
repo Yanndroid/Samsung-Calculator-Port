@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Unit>
+    <name>UK Gallon</name>
+    <value>0.00454609</value>
+    <name>US Gallon</name>
+    <value>3.785411784×10^(−3)</value>
+    <name>Liter</name>
+    <value>0.001</value>
+    <name>Mililiter</name>
+    <value>0.000001</value>
+    <name>Cubic Centimiter</name>
+    <value>0.000001</value>
+    <name>Cubic meter</name>
+    <value>1</value>
+    <name>Cubic inch</name>
+    <value>1.6387064×10^(−5)</value>
+    <name>Cubic foot</name>
+    <value>2.8316846592×10^(−2)</value>
+</Unit>

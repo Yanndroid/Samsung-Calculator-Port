@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calc_formula_height_tablet">128.0dip</dimen>
+    <dimen name="calc_handle_btn_converter_margin_end_tablet">54.19998dip</dimen>
+    <dimen name="calc_handle_btn_height_tablet">50.0dip</dimen>
+    <dimen name="calc_handle_btn_width_tablet">50.0dip</dimen>
+    <dimen name="calc_history_btn_clear_height">40.0dip</dimen>
+    <dimen name="calc_history_btn_clear_margin_top">25.0dip</dimen>
+    <dimen name="calc_history_btn_clear_width">291.0dip</dimen>
+    <dimen name="calc_history_divider_item">25.0dip</dimen>
+    <dimen name="calc_history_list_view_margin_end">20.0dip</dimen>
+    <dimen name="calc_history_list_view_margin_start">30.0dip</dimen>
+    <dimen name="calc_keypad_btn_add_text_size_tablet">36.0dip</dimen>
+    <dimen name="calc_keypad_btn_clear_text_size_tablet">25.0dip</dimen>
+    <dimen name="calc_keypad_btn_deg_rad_text_size_tablet">18.0dip</dimen>
+    <dimen name="calc_keypad_btn_div_text_size_tablet">37.0dip</dimen>
+    <dimen name="calc_keypad_btn_equal_text_size_tablet">37.0dip</dimen>
+    <dimen name="calc_keypad_btn_height_tablet">48.0dip</dimen>
+    <dimen name="calc_keypad_btn_mul_text_size_tablet">36.0dip</dimen>
+    <dimen name="calc_keypad_btn_number_text_size_tablet">26.0dip</dimen>
+    <dimen name="calc_keypad_btn_parenthesis_text_size_tablet">19.0dip</dimen>
+    <dimen name="calc_keypad_btn_percentage_text_size_tablet">26.0dip</dimen>
+    <dimen name="calc_keypad_btn_sub_text_size_tablet">37.0dip</dimen>
+    <dimen name="calc_result_height_tablet">73.0dip</dimen>
+    <dimen name="mtg_cal_btn_touch_width">240.0dip</dimen>
+    <dimen name="mtg_cal_btn_width">200.0dip</dimen>
+    <dimen name="mtg_items_edit_text_size">17.0dip</dimen>
+    <dimen name="mtg_items_spn_text_size">19.0dip</dimen>
+</resources>

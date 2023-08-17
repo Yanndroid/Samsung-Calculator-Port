@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="com.sec.android.app.popupcalculator" platformBuildVersionCode="33" platformBuildVersionName="13">
+    <uses-permission android:name="com.samsung.keyguard.SHORTCUT_PERMISSION"/>
+    <uses-permission android:name="com.sec.android.app.parser.permission.SecretCodeIME"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.sec.spp.permission.TOKEN_b8a82002e8796582a00da99945c0030cbf5b2363606544cbe5839d0ed225f6ab631336df38d03c8f062aef9f4f0b12c876a16353cf9bd4793def6834d2addffa5f34e4b04344a60fa268dd722f793777fab4263f8be781f454a49e1c9362261e00cbd5b159b774555826c585f7f04e66134faca83b6f9e98441dcb54022e7d3e"/>
+    <uses-feature android:name="com.samsung.android.api.version.3101"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="false" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher_calculator" android:label="@string/app_name" android:largeHeap="true" android:name="com.sec.android.app.popupcalculator.CalculatorApplication" android:supportsRtl="true" android:theme="@style/CalcTheme" android:usesCleartextTraffic="true">
+        <meta-data android:name="com.samsung.android.keepalive.density" android:value="true"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="com.samsung.android.directwriting.disabled" android:value="true"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:hardwareAccelerated="true" android:label="@string/app_name" android:minWidth="220.0dip" android:name="com.sec.android.app.popupcalculator.Calculator" android:theme="@style/CalcTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.android.app.launcher.icon_theme" android:value="themeColor"/>
+            <meta-data android:name="com.samsung.keyguard.SHOW_WHEN_LOCKED_SHORTCUT" android:value="true"/>
+            <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden" android:defaultHeight="640.0dip" android:defaultWidth="360.0dip" android:hardwareAccelerated="true" android:label="@string/unit_converter" android:minWidth="220.0dip" android:name="com.sec.android.app.popupcalculator.converter.controller.NewUnitConverterActivity" android:screenOrientation="behind" android:theme="@style/ConvertTab" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:defaultHeight="640.0dip" android:defaultWidth="360.0dip" android:hardwareAccelerated="true" android:minHeight="290.0dip" android:minWidth="270.0dip" android:name="com.sec.android.app.popupcalculator.converter.mortgage.controller.MortgageResultActivity" android:theme="@style/ConvertTab" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:defaultHeight="640.0dip" android:defaultWidth="360.0dip" android:hardwareAccelerated="true" android:minHeight="290.0dip" android:minWidth="270.0dip" android:name="com.sec.android.app.popupcalculator.converter.mortgage.controller.BaseMortgageActivity" android:theme="@style/ConvertTab" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:defaultHeight="640.0dip" android:defaultWidth="360.0dip" android:hardwareAccelerated="true" android:label="@string/mtg_details_title" android:minHeight="290.0dip" android:minWidth="270.0dip" android:name="com.sec.android.app.popupcalculator.converter.mortgage.controller.MortgageDetailActivity" android:theme="@style/ConvertTab" android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <meta-data android:name="SPDE.build.signature" android:value="5ccafa69fcbd068d7fdd73e819cc530d3475f8f4/115735720/release/Calculator-1204000-12.2.00"/>
+        <meta-data android:name="SPDE.env.version" android:value="7.2.1/G33.1.13/1.0.11"/>
+    </application>
+</manifest>
